@@ -10,6 +10,31 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			#container {
+			  width: 500px;
+			  height: 100px;
+			  overflow: hidden;
+			  position: relative;
+			}
+		
+			#container p {
+			  position: absolute;
+			  top: 0;
+			  left: 100%;
+			  white-space: nowrap;
+			  animation: scrollText 15s infinite linear;
+			}
+		
+			@keyframes scrollText {
+			  0% {
+				transform: translateX(0);
+			  }
+			  100% {
+				transform: translateX(-100%);
+			  }
+			}
+		  </style>
 	</head>
 	<body class="is-preload homepage">
 		<div id="page-wrapper">
@@ -22,6 +47,8 @@
 							<div id="logo">
 								<h1><a href="index.html">RedGis</a></h1>
 							</div>
+
+						
 
 						<!-- Nav -->
 							<nav id="nav">
@@ -59,7 +86,10 @@
 						<div class="row">
 							<div class="col-7 col-12-medium">
 								<h2>Hi. Voici RedGis.</h2>
-								<p>Cabinet de consultance qui offre des prestations de formations.</p>
+								<div id="container">
+									<p>Cabinet de consultance qui offre des prestations de formations ...</p>
+								</div>
+								
 							</div>
 							<div class="col-5 col-12-medium">
 								<ul>
