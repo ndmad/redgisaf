@@ -60,8 +60,13 @@
 		.form-container button:hover {
 			background-color: #45a049;
 		}
-		#main-wrapper{
+
+		#main-wrapper {
 			margin-top: 35%;
+		}
+
+		.off {
+			margin-left: 100px;
 		}
 	</style>
 </head>
@@ -69,70 +74,87 @@
 <body class="is-preload no-sidebar">
 	<div id="page-wrapper">
 
-			<!-- Header -->
-			<div id="header-wrapper">
-				<header id="header" class="container">
+		<!-- Header -->
+		<div id="header-wrapper">
+			<header id="header" class="container">
 
-					<!-- Logo -->
-						<div id="logo">
-							<h1><a href="index.html">RedGis</a></h1>
-						</div>
+				<!-- Logo -->
+				<div id="logo">
+					<h1><a href="index.html">RedGis</a></h1>
+				</div>
 
-					<!-- Nav -->
-						<nav id="nav">
+				<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li class="current"><a href="index.html">Acceuil</a></li>
+						<li>
+							<a href="#">Formations</a>
 							<ul>
-								<li class="current"><a href="index.html">Acceuil</a></li>
+								<li><a href="#" target="_blank">SIG</a></li>
+								<li><a href="#">Télédection</a></li>
 								<li>
-									<a href="#">Formations</a>
+									<a href="#">Sciences de données</a>
 									<ul>
-										<li><a href="#" target="_blank">SIG</a></li>
-										<li><a href="#">Télédection</a></li>
-										<li>
-											<a href="#">Sciences de données</a>
-											<ul>
-												<li><a href="#">R</a></li>
-												<li><a href="#">Python</a></li>
-												<li><a href="#">Javascript</a></li>
-												<li><a href="#">Frameworks</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Lanquage SQL</a></li>
+										<li><a href="#">R</a></li>
+										<li><a href="#">Python</a></li>
+										<li><a href="#">Javascript</a></li>
+										<li><a href="#">Frameworks</a></li>
 									</ul>
 								</li>
-								<li><a href="envcarto.html">Envcarto</a></li>
-								<li><a href="blog.html">Blog</a></li>
-								<li><a href="contact.html">Contact</a></li>
+								<li><a href="#">Lanquage SQL</a></li>
 							</ul>
-						</nav>
+						</li>
+						<li><a href="envcarto.html">Envcarto</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
 
-				</header>
-			</div>
+			</header>
+		</div>
 
 		<!-- Main -->
 		<div id="main-wrapper">
 			<div class="container">
 				<div class="row">
-					
 
-							<!-- Content -->
-							<div class="form-container">
-								<h2>Contactez-nous</h2>
-								<form>
-									<input type="text" id="prenom" name="prenom" placeholder="Prénom" required>
-									<input type="text" id="nom" name="nom" placeholder="Nom" required>
-									<input type="email" id="email" name="email" placeholder="Email" required>
-									<input type="tel" id="telephone" name="telephone" placeholder="Téléphone" required>
-									<textarea id="message" name="message" placeholder="Message" required></textarea>
-									<button type="submit">Envoyer</button>
-								</form>
-							</div>
 
-						<div class="col-6">
-							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam maxime unde dolorem,
-								eligendi quisquam iste aliquam? Cum libero ab rem recusandae deleniti, quisquam autem
-								quibusdam odit possimus tenetur perspiciatis tempore.</p>
-						</div>
-					
+					<!-- Content -->
+					<div class="form-container">
+						<h2>Contactez-nous</h2>
+						<form>
+							<input type="text" id="prenom" name="prenom" placeholder="Prénom" required>
+							<input type="text" id="nom" name="nom" placeholder="Nom" required>
+							<input type="email" id="email" name="email" placeholder="Email" required>
+							<input type="tel" id="telephone" name="telephone" placeholder="Téléphone" required>
+							<textarea id="message" name="message" placeholder="Message" required></textarea>
+							<button type="submit">Envoyer</button>
+						</form>
+					</div>
+
+					<div class="off col-6">
+						<h4>Bienvenue sur notre site web !</h4>
+						<p>
+						<blockquote>Nous sommes ravis de vous accueillir et de vous présenter nos services. Avant de
+							commencer,
+							nous aimerions vous inviter à entrer vos informations dans le formulaire à côté, afin que
+							nous puissions mieux vous connaître et vous proposer une expérience personnalisée. <br>
+						</blockquote>
+
+						Que vous soyez à la recherche d'une formation pour élargir vos connaissances, améliorer vos
+						compétences ou vous reconvertir dans un nouveau domaine, nous sommes là pour vous aider.
+						Explorez notre liste de formations variées et trouvez celle qui correspond le mieux à vos
+						objectifs. <br>
+
+						<blockquote>N'hésitez pas à nous contacter si vous avez des questions ou besoin d'aide pour choisir la
+						formation qui vous convient le mieux. Nous sommes impatients de vous accompagner dans votre
+						parcours d'apprentissage et de vous aider à atteindre vos aspirations professionnelles.</blockquote>
+
+						<br>Merci de nous rejoindre et bonne découverte sur notre site !
+
+						</p>
+					</div>
+
 				</div>
 			</div>
 		</div>
