@@ -23,7 +23,7 @@
 			  top: 0;
 			  left: 100%;
 			  white-space: nowrap;
-			  animation: scrollText 15s infinite linear;
+			  animation: scrollText 7s infinite linear;
 			}
 		
 			@keyframes scrollText {
@@ -33,6 +33,12 @@
 			  100% {
 				transform: translateX(-100%);
 			  }
+			}
+			#sec{
+				transition: box-shadow 0.3s ease-in-out;
+			}
+			#sec:hover{
+				box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 			}
 		  </style>
 	</head>
@@ -85,9 +91,11 @@
 					<div id="banner" class="box container">
 						<div class="row">
 							<div class="col-7 col-12-medium">
-								<h2>Hi. Voici RedGis.</h2>
+								<h2>RED GIS AFRICA</h2>
 								<div id="container">
-									<p>Cabinet de consultance qui offre des prestations de formations ...</p>
+									<div>
+										<p>Cabinet de consultance</p>
+									</div>
 								</div>
 								
 							</div>
@@ -108,7 +116,7 @@
 							<div class="col-4 col-12-medium">
 
 								<!-- Box -->
-									<section class="box feature">
+									<section class="box feature" id="sec">
 										<a href="#" class="image featured"><img src="images/pic01.jpg.png" alt="" /></a>
 										<div class="inner">
 											<header>
@@ -123,7 +131,7 @@
 							<div class="col-4 col-12-medium">
 
 								<!-- Box -->
-									<section class="box feature">
+									<section class="box feature" id="sec">
 										<a href="#" class="image featured"><img src="images/pic02.jpg.png" alt="" /></a>
 										<div class="inner">
 											<header>
@@ -139,7 +147,7 @@
 							<div class="col-4 col-12-medium">
 
 								<!-- Box -->
-									<section class="box feature">
+									<section class="box feature" id="sec">
 										<a href="#" class="image featured"><img src="images/pic03.jpg.png" alt="" /></a>
 										<div class="inner">
 											<header>
