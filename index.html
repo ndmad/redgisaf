@@ -1,305 +1,225 @@
 <!DOCTYPE HTML>
 <!--
-	Verti by HTML5 UP
+	Landed by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Acceuil</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<style>
-			#container {
-			  width: 500px;
-			  height: 100px;
-			  overflow: hidden;
-			  position: relative;
-			}
-		
-			#container p {
-			  position: absolute;
-			  top: 0;
-			  left: 100%;
-			  white-space: nowrap;
-			  animation: scrollText 7s infinite linear;
-			}
-		
-			@keyframes scrollText {
-			  0% {
-				transform: translateX(0);
-			  }
-			  100% {
-				transform: translateX(-100%);
-			  }
-			}
-			#sec{
-				transition: box-shadow 0.3s ease-in-out;
-			}
-			#sec:hover{
-				box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-			}
-			p{
-				text-align: justify;
-			}
-		  </style>
-	</head>
-	<body class="is-preload homepage">
-		<div id="page-wrapper">
 
-			<!-- Header -->
-				<div id="header-wrapper">
-					<header id="header" class="container">
+<head>
+	<title>Acceuil</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
 
-						<!-- Logo -->
-							<div id="logo">
-								<h1><a href="index.html">RedGis</a></h1>
-							</div>
+<body class="is-preload landing">
+	<div id="page-wrapper">
 
-						
-
-						<!-- Nav -->
-							<nav id="nav">
+		<!-- Header -->
+		<header id="header">
+			<h1 id="logo"><a href="index.html">REDGIS AFRICA</a></h1>
+			<nav id="nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li>
+						<a href="formation.html">Formations</a>
+						<ul>
+							<li><a href="formations/sig.html">Sig</a></li>
+							<li><a href="formations/teledect.html">Télédetection</a></li>
+							<li><a href="formations/bu">Bureautique</a></li>
+							<li>
+								<a href="#">Framework</a>
 								<ul>
-									<li class="current"><a href="index.html">Acceuil</a></li>
-									<li>
-										<a href="formation.html">Formations</a>
-										<ul>
-											<li><a href="sig.html" target="_blank">SIG</a></li>
-											<li><a href="teledection.html">Télédection</a></li>
-											<li>
-												<a href="#">Sciences de données</a>
-												<ul>
-													<li><a href="langr.html">R</a></li>
-													<li><a href="lngpython.html">Python</a></li>
-													<li><a href="langjavasri.html">Javascript</a></li>
-													<li><a href="framewor.html">Frameworks</a></li>
-												</ul>
-											</li>
-											<li><a href="sql.html">Lanquage SQL</a></li>
-										</ul>
-									</li>
-									<li><a href="envcarto.html">Envcarto</a></li>
-									<li><a href="blog.html">Blog</a></li>
-									<li><a href="contact.html">Contact</a></li>
+									<li><a href="#">Geopandas</a></li>
+									<li><a href="#">Pandas</a></li>
+									<li><a href="#">Strealit</a></li>
+									<li><a href="#">Leaflet</a></li>
 								</ul>
-							</nav>
+							</li>
+						</ul>
+					</li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="#" class="button primary">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
 
-					</header>
-				</div>
-
-			<!-- Banner -->
-				<div id="banner-wrapper">
-					<div id="banner" class="box container">
-						<div class="row">
-							<div class="col-7 col-12-medium">
-								<h2>RED GIS AFRICA</h2>
-								<div id="container">
-									<div>
-										<p>Cabinet de consultance</p>
-									</div>
-								</div>
-								
-							</div>
-							<div class="col-5 col-12-medium">
-								<ul>
-									<li><a href="https://gisred-demo--home-2iho17.streamlit.app/" class="button large icon solid fa-arrow-circle-right" target="_blank">Ok let's go</a></li>
-									<li><a href="#" class="button alt large icon solid fa-question-circle">More info</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			<!-- Features -->
-				<div id="features-wrapper">
-					<div class="container">
-						<div class="row">
-							<div class="col-4 col-12-medium">
-
-								<!-- Box -->
-									<section class="box feature" id="sec">
-										<a href="#" class="image featured"><img src="images/pic01.jpg.png" alt="" /></a>
-										<div class="inner">
-											<header>
-												<h2>Redécouvrez votre territoire</h2>
-											</header>
-											<p>Prenez le contrôle de votre territoire avec Redgis ! Analysez, diagnostiquez et mobilisez vos ressources grâce à la collaboration 
-												exceptionnelle de notre cabinet. Avec Redgis, découvrez toutes les informations clés de votre territoire.</p>
-										</div>
-									</section>
-
-							</div>
-							<div class="col-4 col-12-medium">
-
-								<!-- Box -->
-									<section class="box feature" id="sec">
-										<a href="#" class="image featured"><img src="images/pic02.jpg.png" alt="" /></a>
-										<div class="inner">
-											<header>
-												<h2>Devenez un expert en analyse géospatiale!</h2>
-											</header>
-											<p>Vous souhaitez vous lancer dans le monde passionnant des SIG? Vous voulez en savoir 
-												plus sur la collecte, l'analyse et la visualisation de données 
-												géospatiales? Ne cherchez plus, notre formation en SIG est faite pour vous!</p>
-										</div>
-									</section>
-
-							</div>
-							<div class="col-4 col-12-medium">
-
-								<!-- Box -->
-									<section class="box feature" id="sec">
-										<a href="#" class="image featured"><img src="images/pic03.jpg.png" alt="" /></a>
-										<div class="inner">
-											<header>
-												<h2>Construisez un avenir durable</h2>
-											</header>
-											<p>Rejoignez-nous dans notre quête pour propulser les initiatives vers une action concrète en faveur d'un développement économique durable.
-												 Nous sommes déterminés à soutenir, guider et accompagner les strucures pour atteindre un avenir plus vibrant
-											</p>
-										</div>
-									</section>
-
-							</div>
-						</div>
-					</div>
-				</div>
-
-			<!-- Main -->
-				<div id="main-wrapper">
-					<div class="container">
-						<div class="row gtr-200">
-							<div class="col-4 col-12-medium">
-
-								<!-- Sidebar -->
-									<div id="sidebar">
-										<section class="widget thumbnails">
-											<h3>Interesting stuff</h3>
-											<div class="grid">
-												<div class="row gtr-50">
-													<div class="col-6"><a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a></div>
-													<div class="col-6"><a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a></div>
-													<div class="col-6"><a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a></div>
-													<div class="col-6"><a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a></div>
-												</div>
-											</div>
-											<a href="#" class="button icon fa-file-alt">More</a>
-										</section>
-									</div>
-
-							</div>
-							<div class="col-8 col-12-medium imp-medium">
-
-								<!-- Content -->
-									<div id="content">
-										<section class="last">
-											<h2>Alors de quoi s'agit-il?</h2>
-											<p>Voici<strong> RedGis</strong>, un cabinet de consultance qui offre des prestations de<a href="http://html5up.net"> formations</a>
-											et d'étude dans les<a href="http://html5up.net/license"> domaines</a>  de l'environnement, du développement et de la géomatique.</p>
-											<p>Notre mission, c'est d'offrir des services de qualités dans l'analyse spatiale des données collectées sur le terrain
-												<br> aux structures publiques et privées désirant mettre en place des initiaves locales ou développer leurs activités en cours.
-											</p>
-											<a href="#" class="button icon solid fa-arrow-circle-right">Continue la lecture</a>
-										</section>
-									</div>
-
-							</div>
-						</div>
-					</div>
-				</div>
-
-			<!-- Footer -->
-				<div id="footer-wrapper">
-					<footer id="footer" class="container">
-						<div class="row">
-							<div class="col-3 col-6-medium col-12-small">
-
-								<!-- Links -->
-									<section class="widget links">
-										<h3>Communautés</h3>
-										<ul class="style2">
-											<li><a href="#">Partenaires institutionels</a></li>
-											<li><a href="#">Scientifiques</a></li>
-											<li><a href="#">EO industry</a></li>
-											<li><a href="#">Utilisateurs publics et privés</a></li>
-											<li><a href="#">Plus d'opportunités</a></li>
-										</ul>
-									</section>
-
-							</div>
-							<div class="col-3 col-6-medium col-12-small">
-
-								<!-- Links -->
-									<section class="widget links">
-										<h3>Résultats</h3>
-										<ul class="style2">
-											<li><a href="#">Projets</a></li>
-											<li><a href="#">Publications</a></li>
-											<li><a href="#">Articles scientifiques</a></li>
-											<li><a href="#">Catalogue en data science</a></li>
-											<li><a href="#">applications d'open source</a></li>
-										</ul>
-									</section>
-
-							</div>
-							<div class="col-3 col-6-medium col-12-small">
-
-								<!-- Links -->
-									<section class="widget links">
-										<h3>Outils & Plateformes</h3>
-										<ul class="style2">
-											<li><a href="#">Nos ressources</a></li>
-											<li><a href="#">Common Architecture</a></li>
-											<li><a href="#">Outils scientifiques</a></li>
-											<li><a href="#">Laboratoire virtuel</a></li>
-											<li><a href="#">Data science avce R & SQL</a></li>
-										</ul>
-									</section>
-
-							</div>
-							<div class="col-3 col-6-medium col-12-small">
-
-								<!-- Contact -->
-									<section class="widget contact last">
-										<h3>Contactez-nous</h3>
-										<ul>
-											<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-											<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-											<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-											<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-											<li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
-										</ul>
-										<p>1234 Fictional Road<br />
-										Dakar, BP 17000<br />
-										(+221) 771579014</p>
-									</section>
-
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-12">
-								<div id="copyright">
-									<ul class="menu">
-										<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</footer>
-				</div>
-
+		<!-- Banner -->
+		<section id="banner">
+			<div class="content">
+				<header>
+					<h2 style="text-align: left;">RED GIS AFRICA</h2>
+					<p style="text-align: left;">Cabinet de consultance offant des prestations de formations <br> et
+						d'étude dans les domaines de
+						l'environnement, du développement <br>et de la géomatique.</p>
+				</header>
+				<span class="image"><img src="images/info.svg" alt="" style="margin-top: 70px;" /></span>
 			</div>
+			<a href="#one" class="goto-next scrolly">Next</a>
+		</section>
 
-		<!-- Scripts -->
+		<!-- One -->
+		<section id="one" class="spotlight style1 bottom">
+			<span class="image fit main"><img src="images/pic02.jpg" alt="" /></span>
+			<div class="content">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-12-medium">
+							<header>
+								<h2>Construisez un avenir durable</h2>
+								<p>Prenez le contrôle de votre territoire avec Redgis !</p>
+							</header>
+						</div>
+						<div class="col-4 col-12-medium">
+							<p>Rejoignez-nous dans notre quête pour propulser les initiatives vers une action concrète
+								en faveur d'un développement économique durable. Nous sommes déterminés à soutenir,
+								guider et accompagner les strucures pour atteindre un avenir plus vibrant</p>
+						</div>
+						<div class="col-4 col-12-medium">
+							<p>Rejoignez-nous dans notre quête pour propulser les initiatives vers une action concrète
+								en faveur d'un développement économique durable. Nous sommes déterminés à soutenir,
+								guider et accompagner les strucures pour atteindre un avenir plus vibrant</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a href="#two" class="goto-next scrolly">Next</a>
+		</section>
 
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<!-- Two -->
+		<section id="two" class="spotlight style2 right">
+			<span class="image fit main"><img src="images/pic03.jpg" alt="" /></span>
+			<div class="content">
+				<header>
+					<h2>Redécouvrez votre territoire</h2>
+					<p>Nunc commodo accumsan eget id nisi eu col volutpat magna</p>
+				</header>
+				<p>Prenez le contrôle de votre territoire avec Redgis ! Analysez, diagnostiquez et mobilisez vos
+					ressources grâce à la collaboration exceptionnelle de notre cabinet. Avec Redgis, découvrez toutes
+					les informations clés de votre territoire.</p>
+				<ul class="actions">
+					<li><a href="#" class="button">En savoir plus</a></li>
+				</ul>
+			</div>
+			<a href="#three" class="goto-next scrolly">Next</a>
+		</section>
 
-	</body>
+		<!-- Three -->
+		<section id="three" class="spotlight style3 left">
+			<span class="image fit main bottom"><img src="images/pic04.jpg" alt="" /></span>
+			<div class="content">
+				<header>
+					<h2>Devenez un expert en analyse géospatiale!</h2>
+					<p>Accumsan integer ultricies aliquam vel massa sapien phasellus</p>
+				</header>
+				<p>Vous souhaitez vous lancer dans le monde passionnant des SIG? Vous voulez en savoir plus sur la
+					collecte, l'analyse et la visualisation de données géospatiales? Ne cherchez plus, notre formation
+					en SIG est faite pour vous!</p>
+				<ul class="actions">
+					<li><a href="#" class="button">En savoir plus</a></li>
+				</ul>
+			</div>
+			<a href="#four" class="goto-next scrolly">Next</a>
+		</section>
+
+		<!-- Four -->
+		<section id="four" class="wrapper style1 special fade-up">
+			<div class="container">
+				<header class="major">
+					<h2>Construisez un avenir durable grâce à notre coloboration</h2>
+					<p>Iaculis ac volutpat vis non enim gravida nisi faucibus posuere arcu consequat</p>
+				</header>
+				<div class="box alt">
+					<div class="row gtr-uniform">
+						<section class="col-4 col-6-medium col-12-xsmall">
+							<span class="icon solid alt major fa-chart-area"></span>
+							<h3>Ipsum sed commodo</h3>
+							<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+						</section>
+						<section class="col-4 col-6-medium col-12-xsmall">
+							<span class="icon solid alt major fa-comment"></span>
+							<h3>Eleifend lorem ornare</h3>
+							<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+						</section>
+						<section class="col-4 col-6-medium col-12-xsmall">
+							<span class="icon solid alt major fa-flask"></span>
+							<h3>Cubilia cep lobortis</h3>
+							<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+						</section>
+						<section class="col-4 col-6-medium col-12-xsmall">
+							<span class="icon solid alt major fa-paper-plane"></span>
+							<h3>Non semper interdum</h3>
+							<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+						</section>
+						<section class="col-4 col-6-medium col-12-xsmall">
+							<span class="icon solid alt major fa-file"></span>
+							<h3>Odio laoreet accumsan</h3>
+							<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+						</section>
+						<section class="col-4 col-6-medium col-12-xsmall">
+							<span class="icon solid alt major fa-lock"></span>
+							<h3>Massa arcu accumsan</h3>
+							<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+						</section>
+					</div>
+				</div>
+				<footer class="major">
+					<ul class="actions special">
+						<li><a href="#" class="button">En savoir plus</a></li>
+					</ul>
+				</footer>
+			</div>
+		</section>
+
+		<!-- Five -->
+		<section id="five" class="wrapper style2 special fade">
+			<div class="container">
+				<header>
+					<h2>Magna faucibus lorem diam</h2>
+					<p>Ante metus praesent faucibus ante integer id accumsan eleifend</p>
+				</header>
+				<form method="post" action="#" class="cta">
+					<div class="row gtr-uniform gtr-50">
+						<div class="col-8 col-12-xsmall"><input type="email" name="email" id="email"
+								placeholder="Your Email Address" /></div>
+						<div class="col-4 col-12-xsmall"><input type="submit" value="Nous contactez" class="fit primary" />
+						</div>
+					</div>
+				</form>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<ul class="icons">
+				<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+				<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+				<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+				<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+				<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+				<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+			</ul>
+			<ul class="copyright">
+				<li>Copyright&copy; 2024 REDGIS AFRICA. Touts droits réservés.</li>
+			</ul>
+		</footer>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
